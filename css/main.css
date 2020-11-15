@@ -1,0 +1,122 @@
+.main_body {
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.navbar-default {
+    background-color: #999 !important;
+    border-color: #333;
+    border-width:2px;
+}
+    .navbar-default .navbar-nav > li > a {
+        color: #000;
+    }
+    .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand {
+        color: #000;
+        background-color: transparent;
+    }
+
+.header {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 1px
+}
+
+.col {
+    float: left;
+    width: 31%;
+    border: 2px solid #000000;
+    margin-left: 1em;
+    background: #999;
+}
+    .col .title {
+        margin-bottom: 10px;
+        border-left: 2px solid #000000;
+        border-bottom: 2px solid #000000;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        width: 140px;
+        float: right;
+        background: #ccc;
+    }
+.col1 .title {
+    background: #d59898;
+}
+.col2 .title {
+    background: #c14543;
+    color:white
+}
+.col3 .title {
+    background: #e5d198;
+}
+    .col p {
+        margin:0;
+        padding:5px
+    }
+    .col1 {
+
+    }
+.col2 {
+
+}
+.col3 {
+
+}
+.text {
+    padding: 5px 10px 5px 10px;
+    font-weight:bold;
+    clear: both
+}
+
+
+
+
+
+
+/*  ============= responsive css Start  from here=============  */
+
+/*  divice variance css */
+
+/*-------------- No: 1  ------------- */
+
+/* For mobile phones: */
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+
+    .col {
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 0 !important;
+    }
+}
+/*------------------------ No: 2  ---------------------------- */
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    /* For tablets: */
+    .col {
+        width: 46%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 1em !important;
+    }
+
+    .col3 {
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 0 !important;
+    }
+}
+
+
+
+/*--------------------------------- No: 3  ----------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* For desktop: */
+    .col-1 {
+    }
+}
